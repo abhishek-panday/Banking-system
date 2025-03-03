@@ -34,65 +34,65 @@ Provides a menu-driven interface for users to interact with the system.
 
 **Options include:**
 
-- Open a new account.
+- **Open a new account.**
 
-- View account details.
+- **View account details.**
 
-- Perform transactions (deposit, withdraw, transfer).
+- **Perform transactions (deposit, withdraw, transfer).**
 
-- View transaction history.
+- **View transaction history.**
 
-- View passbook.
+- **View passbook.**
 
-- Exit the program and save data.
+- **Exit the program and save data.**
 
 # Significance of the Code
-**Object-Oriented Design:**
+- **Object-Oriented Design:**
 
 The Account class encapsulates all the properties and behaviors of a bank account, making the code modular and reusable.
 
 This design allows for easy extension, such as adding new account types or transaction types.
 
-**Data Persistence:**
+- **Data Persistence:**
 
 By using pickle, the program can save and load data between sessions, ensuring that account and transaction data are not lost when the program exits.
 
-**User-Friendly Interface:**
+- **User-Friendly Interface:**
 
 The menu-driven interface makes it easy for users to interact with the system without needing to understand the underlying code.
 
-**Transaction Tracking:**
+- **Transaction Tracking:**
 
 Every transaction (deposit, withdrawal, transfer) is recorded with a timestamp, allowing users to view a detailed history of their account activity.
 
-**Error Handling:**
+- **Error Handling:**
 
 The program includes basic checks to prevent invalid transactions (e.g., withdrawing more than the available balance or transferring to a non-existent account).
 
-**Unique Account Number Generation:**
+- **Unique Account Number Generation:**
 
 The generate_account_number() method ensures that each account has a unique 10-digit number, which is essential for identifying accounts in a real-world banking system.
 
-**How It Works**
+# How It Works
 **Initialization:**
 
 When the program starts, it loads existing accounts and transactions from the pickle files.
 
-- _Menu Options:_
+-** _Menu Options:_**
 
 Users can choose from various options to manage their accounts:
 
-- _Open a new account:_ Creates a new Account object and adds it to the accounts dictionary.
+- **_Open a new account:_** Creates a new Account object and adds it to the accounts dictionary.
 
-- _View account details:_ Displays the account holder's name, account number, type, and balance.
+- **_View account details:_** Displays the account holder's name, account number, type, and balance.
 
-- _Perform transactions:_ Allows users to deposit, withdraw, or transfer funds.
+- **_Perform transactions:_** Allows users to deposit, withdraw, or transfer funds.
 
-- _View transaction history:_ Displays a list of all transactions for a specific account.
+- **_View transaction history:_** Displays a list of all transactions for a specific account.
 
-- _View passbook:_ Shows a formatted passbook with transaction details and running balances.
+- **_View passbook:_** Shows a formatted passbook with transaction details and running balances.
 
-- _Exit:_ Saves the current state of accounts and transactions to files and exits the program.
+- **_Exit:_** Saves the current state of accounts and transactions to files and exits the program.
 
 **Data Persistence:**
 
