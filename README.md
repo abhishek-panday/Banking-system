@@ -6,29 +6,29 @@ Represents a bank account with attributes like name, account_number, account_typ
 
 **Methods include:**
 
-**_deposit():_** Adds funds to the account.
+- **_deposit():_** Adds funds to the account.
 
-**_withdraw():_** Deducts funds from the account.
+- **_withdraw():_** Deducts funds from the account.
 
-**_transfer():_** Transfers funds to another account.
+- **_transfer():_** Transfers funds to another account.
 
-**_get_transaction_history():_** Returns the list of transactions.
+- **_get_transaction_history():_** Returns the list of transactions.
 
-**_get_summary_statistics():_** Provides summary statistics (total deposits, withdrawals, and average transaction amount).
+- **_get_summary_statistics():_** Provides summary statistics (total deposits, withdrawals, and average transaction amount).
 
-**_view_passbook():_** Displays a formatted passbook with transaction history.
+- **_view_passbook():_** Displays a formatted passbook with transaction history.
 
-**_generate_account_number():_** Generates a unique 10-digit account number.
+- **_generate_account_number():_** Generates a unique 10-digit account number.
 
 **File Handling:**
 
 The program uses the pickle module to save and load account and transaction data to/from files (accounts.pkl and transactions.pkl).
 
-**_load_data():_** Loads existing accounts and transactions from files.
+- **_load_data():_** Loads existing accounts and transactions from files.
 
-**_save_data():_** Saves the current state of accounts and transactions to files.
+- **_save_data():_** Saves the current state of accounts and transactions to files.
 
-**Main Program:**
+- **Main Program:**
 
 Provides a menu-driven interface for users to interact with the system.
 
@@ -36,15 +36,15 @@ Provides a menu-driven interface for users to interact with the system.
 
 - Open a new account.
 
-View account details.
+- View account details.
 
-Perform transactions (deposit, withdraw, transfer).
+- Perform transactions (deposit, withdraw, transfer).
 
-View transaction history.
+- View transaction history.
 
-View passbook.
+- View passbook.
 
-Exit the program and save data.
+- Exit the program and save data.
 
 # Significance of the Code
 **Object-Oriented Design:**
@@ -78,21 +78,21 @@ The generate_account_number() method ensures that each account has a unique 10-d
 
 When the program starts, it loads existing accounts and transactions from the pickle files.
 
-_Menu Options:_
+- _Menu Options:_
 
 Users can choose from various options to manage their accounts:
 
-_Open a new account:_ Creates a new Account object and adds it to the accounts dictionary.
+- _Open a new account:_ Creates a new Account object and adds it to the accounts dictionary.
 
-_View account details:_ Displays the account holder's name, account number, type, and balance.
+- _View account details:_ Displays the account holder's name, account number, type, and balance.
 
-_Perform transactions:_ Allows users to deposit, withdraw, or transfer funds.
+- _Perform transactions:_ Allows users to deposit, withdraw, or transfer funds.
 
-_View transaction history:_ Displays a list of all transactions for a specific account.
+- _View transaction history:_ Displays a list of all transactions for a specific account.
 
-_View passbook:_ Shows a formatted passbook with transaction details and running balances.
+- _View passbook:_ Shows a formatted passbook with transaction details and running balances.
 
-_Exit:_ Saves the current state of accounts and transactions to files and exits the program.
+- _Exit:_ Saves the current state of accounts and transactions to files and exits the program.
 
 **Data Persistence:**
 
