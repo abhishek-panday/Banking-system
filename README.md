@@ -6,27 +6,27 @@ Represents a bank account with attributes like name, account_number, account_typ
 
 **Methods include:**
 
-_deposit():_ Adds funds to the account.
+**_deposit():_** Adds funds to the account.
 
-_withdraw():_ Deducts funds from the account.
+**_withdraw():_** Deducts funds from the account.
 
-_transfer():_ Transfers funds to another account.
+**_transfer():_** Transfers funds to another account.
 
-_get_transaction_history():_ Returns the list of transactions.
+**_get_transaction_history():_** Returns the list of transactions.
 
-_get_summary_statistics():_ Provides summary statistics (total deposits, withdrawals, and average transaction amount).
+**_get_summary_statistics():_** Provides summary statistics (total deposits, withdrawals, and average transaction amount).
 
-_view_passbook():_ Displays a formatted passbook with transaction history.
+**_view_passbook():_** Displays a formatted passbook with transaction history.
 
-_generate_account_number():_ Generates a unique 10-digit account number.
+**_generate_account_number():_** Generates a unique 10-digit account number.
 
 **File Handling:**
 
 The program uses the pickle module to save and load account and transaction data to/from files (accounts.pkl and transactions.pkl).
 
-_load_data():_ Loads existing accounts and transactions from files.
+**_load_data():_** Loads existing accounts and transactions from files.
 
-_save_data():_ Saves the current state of accounts and transactions to files.
+**_save_data():_** Saves the current state of accounts and transactions to files.
 
 **Main Program:**
 
@@ -34,7 +34,7 @@ Provides a menu-driven interface for users to interact with the system.
 
 **Options include:**
 
-Open a new account.
+- Open a new account.
 
 View account details.
 
