@@ -1,4 +1,5 @@
 # Banking-system
+**This is simple Bank Account Management System implemented in Python. It allows users to create bank accounts, perform transactions (deposit, withdraw, transfer), view transaction history, and generate a passbook. The program uses object-oriented programming (OOP) principles and file handling to persist account and transaction data.**
 # Key Components of the Code
 **Account Class:**
 
