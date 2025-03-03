@@ -79,7 +79,7 @@ The generate_account_number() method ensures that each account has a unique 10-d
 
 When the program starts, it loads existing accounts and transactions from the pickle files.
 
--** _Menu Options:_**
+- **_Menu Options:_**
 
 Users can choose from various options to manage their accounts:
 
